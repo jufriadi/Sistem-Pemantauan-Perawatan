@@ -1,0 +1,304 @@
+html {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow:hidden;
+}
+
+body {
+	width:100%;
+	background:url(image/grey.png);
+	font-family: 'Average Sans', sans-serif;
+}
+
+#header {
+	background:#D9D4D4;
+	width:100%;
+	height:120px;
+	position:absolute;
+	top:0;
+	left:0;
+	border:1px solid #000;
+	box-shadow:0px 1px 30px #000;
+}
+
+h1{
+	font-size:40px;
+	text-align:center;
+	font-family: 'Audiowide', cursive;
+	left:50%;
+	margin-top:35px;
+	margin-left:10px;
+	color:yellow;
+	font-weight:bold;
+	text-shadow:0px 1px 5px #000;
+}
+
+h3{
+	font-size:20px;
+	margin-top:-35px;
+	margin-left:20px;
+	padding-top:10px;
+	background:#4F7F92;
+	width:550px;
+	height:35px;
+	color:#fff;
+	border:2px solid #fff;
+	border-radius:120px;
+	box-shadow:0px 1px 20px #fff;
+	font-family: 'Autour One', cursive;
+}
+
+p{
+	text-align:justify;
+	font-size:17px;
+	margin:0 auto;
+	font-family: 'Source Code Pro', sans-serif;
+	color:#fff;
+	padding:30px;
+}
+/* bagian content yang berisi sidebar sama isi */
+
+#content{
+	width:75%;
+	height:350px;
+	clear:both;
+	border-radius:10px; 
+	margin:170px auto;
+}
+
+.bataslogin {
+	width:90%;
+	height:80%;
+	margin-top:50px;
+	margin-left:110px;
+	padding:10px;
+}
+
+.sidebar{
+	float:left;
+	left:0;
+	top:0;
+	bottom:0;
+	margin-bottom:0px;
+	margin-right:20px;
+	width:180px;
+	height:100%;
+	border:2px solid #fff;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	background:url(image/spp7.png);
+	box-shadow:0px 1px 20px #fff;
+}
+
+.isi {
+	width:80%;
+	height:94%;
+	margin-left:200px;
+	padding:10px;
+	border:2px solid #fff;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	background:url(image/spp7.png);
+	box-shadow:0px 1px 20px #fff;
+}
+
+.menu{
+       list-style:none;
+       overflow:hidden;
+       padding:0;
+       margin:0;
+	   margin-top:30px;
+       width:auto;
+       padding:10px 0px;  
+		
+}
+
+.menu li{
+	   display:block;
+       margin:0;
+       padding:0;
+       margin-bottom:8px;
+       border-top-right-radius:50px;
+	   border-bottom-right-radius:50px;
+       position:relative;
+       background:url(image/wild.png);
+	   border:1px solid #000;
+	   border-left:none;
+       width:160px;
+       transition:0.5s;
+       -o-transition:0.5s;
+       -moz-transition:0.5s;
+       -webkit-transition:0.5s;
+       -ms-transition:0.5s;
+	   box-shadow:0px 1px 20px #fff;
+}
+.menu li:hover{
+       opacity:0.8;
+       filter:alpha(opacity=80);
+       z-index:99999;
+       width:190px;
+}
+.menu li a{
+       font-size:16px;
+       font-family: 'Titillium Web', sans-serif;
+       display:block;
+       border-radius: 5px;
+       padding:10px 0 10px 28px;
+       color: #fff;
+       white-space:nowrap;
+       text-decoration:none;
+}
+.menu li a:hover{
+       color:yellow;
+       text-shadow:2px 2px 2px #888;
+}
+
+.menu li span{
+       position:absolute;
+       top:9px;
+       left:7px;
+       width:13px;
+       height:12px;
+}
+
+.input{
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	font-size:12px;
+	background-color:#FFF;
+	border:1px dashed #60C;
+	padding:4px;
+	box-shadow:inset 0px 0px 2px #000;
+}
+
+.button {
+	background:#00A0D1;
+	background:-moz-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00A0D1),color-stop(100%,#008DB8));
+	background:-webkit-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background:-o-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background:-ms-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background:linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00A0D1',endColorstr='#008DB8',GradientType=0);
+	padding:8px 20px;
+	color:#cfebf3;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:13px;
+	border-radius:40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	border:1px solid #095B7E
+}
+
+#header img {
+width:100px;
+height:100px;
+position:relative;
+margin-top:-15px;
+margin-left:-10px;
+}
+
+/* Form login, fieldset, legend dan sebagainya */
+
+fieldset {
+	margin-left:100px;
+	margin-top:-20px;
+	width:810px;
+	height:90%;
+	border:1px solid #fff;
+	border-radius:20px;
+	box-shadow:0px 1px 5px #fff;
+	background:#4F7F92;
+	padding-top:20px;
+}
+
+#fieldset2 {
+	margin-left:290px;
+	margin-top:-20px;
+	width:600px;
+	height:95%;
+	border:1px solid #fff;
+	border-radius:20px;
+	box-shadow:0px 1px 5px #fff;
+	background:#4F7F92;
+	padding-top:10px;
+}
+
+form {
+margin-left:-290px;
+}
+
+table {
+margin:10px auto;
+}
+
+.kotak{
+margin:2px auto;
+width:250px;
+height:35px;
+border:2px solid green;
+border-radius:20px;
+box-shadow:0px 1px 10px #fff;
+}
+
+.kotak2{
+margin:2px auto;
+width:250px;
+height:70px;
+border:2px solid green;
+border-radius:3px;
+box-shadow:0px 1px 10px #fff;
+}
+
+.submit{
+margin:0 auto;
+border-radius:10px;
+background:url(image/wild.png);
+width:100px;
+height:30px;
+color:#fff;
+font-size:15px;
+font-family: 'Average Sans', sans-serif;
+border:1px solid #000;
+}
+
+.submit:hover{
+       opacity:0.8;
+       filter:alpha(opacity=80);
+       z-index:99999;
+}
+
+input {
+font-family: 'Average Sans', sans-serif;
+text-align:center;
+color:blue;
+font-size:16px;
+background:#f4f4f4;
+}
+
+/* bagian footer dan copyright */
+
+#footer {
+   position:absolute;
+   left:-5px;
+   bottom:0;
+   width:101%;
+   height:60px;
+   background:#D9D4D4;
+   border-top:1px solid #000;
+   box-shadow:0px 1px 30px #000;
+   padding-top:25px;
+}
+
+.word {
+	font-family: 'Audiowide', cursive;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+}
